@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoosePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/imagem_hotel"
+        android:fontFamily="cursive"
+        android:paddingVertical="70dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/showDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha a data"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="149dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/dateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="212dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quartos Single"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="282dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quarto Casal"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="329dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quarto presidencial"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="375dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolha o tipo de quarto"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="245dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finalizar o registro"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="438dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Café da manhã, almoço e janta já incluso"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="496dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$230"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="282dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$290"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="329dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$430"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="375dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/decremento_botao1"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:text="-"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="264dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/incremento_botao1"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:text="+"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="264dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/incremento_botao2"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:text="+"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="314dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/incremento_botao3"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:text="+"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="365dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/decremento_botao2"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:text="-"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="314dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/decremento_botao3"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:text="-"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="365dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/quantidade_text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="274dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/quantidade_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="321dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/quantidade_text_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="375dp"
+        tools:ignore="MissingConstraints"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

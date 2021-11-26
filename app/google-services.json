@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739199084450",
+    "project_id": "projeto-pim",
+    "storage_bucket": "projeto-pim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739199084450:android:9a7e6f8e0d02f72e5474fb",
+        "android_client_info": {
+          "package_name": "com.example.pim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739199084450-carv9k60ub6nt529gpeaaia0qrbkjn9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Wr_OYmbVZ4YWyYumMpa60gdkf4fJVh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739199084450-carv9k60ub6nt529gpeaaia0qrbkjn9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

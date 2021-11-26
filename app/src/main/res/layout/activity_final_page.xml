@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/imagem_hotel"
+        android:fontFamily="cursive"
+        android:paddingVertical="70dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obrigado por se registrar"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="137dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tenha uma excelente estadia"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="168dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Você se registro no dia:"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="205dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escolheu o quarto:"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="265dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O valor fico:"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08/02/2022"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="234dp"
+        tools:ignore="MissingConstraints"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quarto casal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="230"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quarto solteiro"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quarto Presidencial"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="241dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
